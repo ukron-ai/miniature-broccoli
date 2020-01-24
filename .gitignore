@@ -1,6 +1,14 @@
 # Atari 2600 (Stella) support for multiple assemblers
 # - DASM
-# - CC68
+# - CC68java.lang.UnsatisfiedLinkError: couldn't find DSO to load: libclasstracing.so caused by: Dynamic section string-table not found result: 0
+	at X.0AK.A0A(:5183)
+	at X.0AK.A09(:5090)
+	at X.0AK.A08(:1)
+	at com.facebook.common.dextricks.classtracing.logger.ClassTracingLogger.<clinit>(:13)
+	at com.facebook.katana.app.FacebookApplication.A0E(:546)
+	at X.002.A0A(:5)
+	at X.0Am.run(:2)
+
 
 # Assembled binaries and object directories
 obj/
